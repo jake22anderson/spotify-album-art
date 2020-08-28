@@ -1,5 +1,4 @@
-# example from https://www.freecodecamp.org/news/how-to-deploy-a-nodejs-app-to-heroku-from-github-without-installing-heroku-on-your-machine-433bec770efe/
-
+/* example from https://www.freecodecamp.org/news/how-to-deploy-a-nodejs-app-to-heroku-from-github-without-installing-heroku-on-your-machine-433bec770efe/ */
 const http = require('http');
 const port = process.env.PORT || 3000
 
