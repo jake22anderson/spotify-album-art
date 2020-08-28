@@ -1,5 +1,5 @@
 {
-  "name": "spotify=album-art",
+  "name": "spotify-album-art",
   "version": "1.0.0",
   "description": "node app ",
   "main": "app.js",
