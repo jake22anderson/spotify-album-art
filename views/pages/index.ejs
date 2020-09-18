@@ -22,13 +22,6 @@
     document.getElementById("startButton").onclick = function() {
       window.location.href = '/login';
     };
-    // Button style
-    var c1 = randomColor({
-      luminosity: 'light'
-    });
-    var c2 = randomColor({
-      luminosity: 'light'
-    });
     $("#startButton").mouseenter(function() {
       $(this).css("background", "red").css("background", "-webkit-linear-gradient(" + c1 + ", " + c2 + ")").css("background", "-o-linear-gradient(" + c1 + ", " + c2 + ")").css("background", "-moz-linear-gradient(" + c1 + ", " + c2 + ")").css(
         "background",
