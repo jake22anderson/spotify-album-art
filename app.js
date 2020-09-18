@@ -65,21 +65,12 @@ app.use(function(err, req, res, next) {
 module.exports = app;
 */ 
 
-var express = require('express');
-var app = express();
-const PORT = process.env.PORT || 5000
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
-app.listen(PORT, function () {
-  express()
-  .listen(PORT, () =>console.log(`Listening on ${ PORT }`))
-});
-
-
-
-
-
-
+{
+  "name": "Starting Spotify Album Art",
+  "repository": "https://github.com/jake22anderson/spotify-album-art",
+  "logo": "https://i.scdn.co/image/2f8ab227ca4d853b2253b414ca04ca53962bbea7",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
 
 
