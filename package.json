@@ -16,5 +16,16 @@
     "querystring": "^0.2.0",
     "serve-favicon": "~2.4.5",
     "spotify-web-api-node": "^2.5.0"
-  }
+  }, 
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  }, 
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
